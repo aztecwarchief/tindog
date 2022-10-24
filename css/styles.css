@@ -1,0 +1,158 @@
+/* title */
+
+#title{
+  background-color: #ff4c68;
+  line-height: 1.5;
+  height: 600px;
+  color: #fff;
+}
+body{
+    font-family:"Montserrat",serif;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+h1 {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 30px 0 20px 0px;
+  }
+  .iphone6{
+    width: 60%;
+    margin-top: 70px;
+    transform: rotate(25deg);
+    right: 30%;
+  }
+  .container{
+     padding-left: 100px;
+  }
+
+/* navbar css */
+
+.navbar-brand
+{
+  font-size: 2.5rem;
+  font-weight:bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+.ms-auto{
+  margin-right: 100px;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.1rem;
+}
+
+/* middle-container */
+
+.middle-container{
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 90px;
+  color: #8f8f8f;
+}
+h2{
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h3{
+  font-family: "Montserrat",serif;
+  font-weight: 700;
+  padding-top: 20px;
+  color: black;
+}
+.icon:hover{
+  color: #ff4c68;
+  font-size: 500%;
+}
+.icon{
+  padding-top:10px;
+  color: #ef8172;
+  transition: font-size 1s;
+}
+#features{
+  width: auto;
+  background-color: #fff;
+  padding: 7% 4%;
+  position: relative;
+}
+
+/* testimonials */
+
+#testimonials{
+  width: auto;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: "Montserrat";
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  padding:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 2% 0;
+}
+
+
+/* Call to action */
+
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+}
+.cta-header{
+  font-family: "Montserrat",serif;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+  padding: 5% 22% 2% 22%;
+  font-size: 250%;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+  color: grey;
+  padding: 10% 0% 10% 0%;
+}
+.social-icon{
+  padding: 0 0.7% 2% 0.7%;
+}
+
+/* media query */
+
+@media(max-width:1028px)
+{
+   .iphone6{
+     position: static;
+     transform: rotate(0);
+   }
+   #title{
+     height: auto;
+   }
+}
